@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Button, Row, Col } from 'react-bootstrap'
+import { Card, Row, Col } from 'react-bootstrap'
 
 const Objetos = () => {
 

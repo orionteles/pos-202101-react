@@ -6,6 +6,8 @@ import Pagina2 from './pages/Pagina2'
 import Arrays from './pages/Arrays'
 import Objetos from './pages/Objetos'
 import Estados from './pages/Estados'
+import FilmesPopulares from './pages/filmes/FilmesPopulares'
+import FilmesDetalhes from './pages/filmes/FilmesDetalhes'
 
 const Rotas = () => {
     return (
@@ -17,6 +19,8 @@ const Rotas = () => {
                 <Route exact path="/arrays" component={Arrays} />
                 <Route exact path="/objetos" component={Objetos} />
                 <Route exact path="/estados" component={Estados} />
+                <Route exact path="/filmes/populares" component={FilmesPopulares} />
+                <Route exact path="/filmes/:id" component={FilmesDetalhes} />
             </Switch>
         </div>
     )

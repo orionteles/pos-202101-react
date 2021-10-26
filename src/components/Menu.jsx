@@ -17,6 +17,7 @@ const Menu = () => {
                             <Link className="nav-link" to="/arrays">Arrays</Link>
                             <Link className="nav-link" to="/objetos">Objetos</Link>
                             <Link className="nav-link" to="/estados">Estados</Link>
+                            <Link className="nav-link" to="/filmes/populares">Filmes Populares</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
